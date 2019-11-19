@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RESERVASModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="HABITACION">
+    <Key>
+      <PropertyRef Name="HAB_CODIGO" />
+    </Key>
+    <Property Name="HAB_CODIGO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HAB_CANT_HUESP" Type="int" Nullable="false" />
+    <Property Name="HAB_TIPO" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="HAB_PRECIO" Type="float" Nullable="false" />
+    <Property Name="HOT_CODIGO" Type="int" Nullable="false" />
+    <Property Name="HAB_ESTADO" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HOTEL">
+    <Key>
+      <PropertyRef Name="HOT_CODIGO" />
+    </Key>
+    <Property Name="HOT_CODIGO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HOT_NOMBRE" Type="varchar" MaxLength="50" />
+    <Property Name="HOT_EMAIL" Type="varchar" MaxLength="30" />
+    <Property Name="HOT_DIRECCION" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="RESERVA">
+    <Key>
+      <PropertyRef Name="RES_CODIGO" />
+    </Key>
+    <Property Name="RES_CODIGO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RES_FECHA" Type="datetime" Nullable="false" />
+    <Property Name="RES_FECHA_INGRESO" Type="datetime" Nullable="false" />
+    <Property Name="RES_FECHA_SALIDA" Type="datetime" Nullable="false" />
+    <Property Name="RES_ESTADO" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="USU_CODIGO" Type="int" Nullable="false" />
+    <Property Name="HAB_CODIGO" Type="int" Nullable="false" />
+    <Property Name="RES_TOTAL" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="USU_CODIGO" />
+    </Key>
+    <Property Name="USU_CODIGO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USU_IDENTIFICACION" Type="varchar" MaxLength="12" />
+    <Property Name="USU_NOMBRE" Type="varchar" MaxLength="100" />
+    <Property Name="USU_PASSWORD" Type="varchar" MaxLength="50" />
+    <Property Name="USU_EMAIL" Type="varchar" MaxLength="100" />
+    <Property Name="USU_ESTADO" Type="char" MaxLength="1" />
+    <Property Name="USU_FEC_NAC" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_HABITACION_HOTEL">
+    <End Role="HOTEL" Type="Self.HOTEL" Multiplicity="1" />
+    <End Role="HABITACION" Type="Self.HABITACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOTEL">
+        <PropertyRef Name="HOT_CODIGO" />
+      </Principal>
+      <Dependent Role="HABITACION">
+        <PropertyRef Name="HOT_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RESERVA_HABITACION">
+    <End Role="HABITACION" Type="Self.HABITACION" Multiplicity="1" />
+    <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HABITACION">
+        <PropertyRef Name="HAB_CODIGO" />
+      </Principal>
+      <Dependent Role="RESERVA">
+        <PropertyRef Name="HAB_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RESERVA_USUARIO">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="USU_CODIGO" />
+      </Principal>
+      <Dependent Role="RESERVA">
+        <PropertyRef Name="USU_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RESERVASModelStoreContainer">
+    <EntitySet Name="HABITACION" EntityType="Self.HABITACION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HOTEL" EntityType="Self.HOTEL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RESERVA" EntityType="Self.RESERVA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_HABITACION_HOTEL" Association="Self.FK_HABITACION_HOTEL">
+      <End Role="HOTEL" EntitySet="HOTEL" />
+      <End Role="HABITACION" EntitySet="HABITACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RESERVA_HABITACION" Association="Self.FK_RESERVA_HABITACION">
+      <End Role="HABITACION" EntitySet="HABITACION" />
+      <End Role="RESERVA" EntitySet="RESERVA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RESERVA_USUARIO" Association="Self.FK_RESERVA_USUARIO">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="RESERVA" EntitySet="RESERVA" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RESERVASModelStoreContainer" CdmEntityContainer="RESERVASEntities">
+    <EntitySetMapping Name="HABITACION">
+      <EntityTypeMapping TypeName="RESERVASModel.HABITACION">
+        <MappingFragment StoreEntitySet="HABITACION">
+          <ScalarProperty Name="HAB_CODIGO" ColumnName="HAB_CODIGO" />
+          <ScalarProperty Name="HAB_CANT_HUESP" ColumnName="HAB_CANT_HUESP" />
+          <ScalarProperty Name="HAB_TIPO" ColumnName="HAB_TIPO" />
+          <ScalarProperty Name="HAB_PRECIO" ColumnName="HAB_PRECIO" />
+          <ScalarProperty Name="HOT_CODIGO" ColumnName="HOT_CODIGO" />
+          <ScalarProperty Name="HAB_ESTADO" ColumnName="HAB_ESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOTEL">
+      <EntityTypeMapping TypeName="RESERVASModel.HOTEL">
+        <MappingFragment StoreEntitySet="HOTEL">
+          <ScalarProperty Name="HOT_CODIGO" ColumnName="HOT_CODIGO" />
+          <ScalarProperty Name="HOT_NOMBRE" ColumnName="HOT_NOMBRE" />
+          <ScalarProperty Name="HOT_EMAIL" ColumnName="HOT_EMAIL" />
+          <ScalarProperty Name="HOT_DIRECCION" ColumnName="HOT_DIRECCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RESERVA">
+      <EntityTypeMapping TypeName="RESERVASModel.RESERVA">
+        <MappingFragment StoreEntitySet="RESERVA">
+          <ScalarProperty Name="RES_CODIGO" ColumnName="RES_CODIGO" />
+          <ScalarProperty Name="RES_FECHA" ColumnName="RES_FECHA" />
+          <ScalarProperty Name="RES_FECHA_INGRESO" ColumnName="RES_FECHA_INGRESO" />
+          <ScalarProperty Name="RES_FECHA_SALIDA" ColumnName="RES_FECHA_SALIDA" />
+          <ScalarProperty Name="RES_ESTADO" ColumnName="RES_ESTADO" />
+          <ScalarProperty Name="USU_CODIGO" ColumnName="USU_CODIGO" />
+          <ScalarProperty Name="HAB_CODIGO" ColumnName="HAB_CODIGO" />
+          <ScalarProperty Name="RES_TOTAL" ColumnName="RES_TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO">
+      <EntityTypeMapping TypeName="RESERVASModel.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="USU_CODIGO" ColumnName="USU_CODIGO" />
+          <ScalarProperty Name="USU_IDENTIFICACION" ColumnName="USU_IDENTIFICACION" />
+          <ScalarProperty Name="USU_NOMBRE" ColumnName="USU_NOMBRE" />
+          <ScalarProperty Name="USU_PASSWORD" ColumnName="USU_PASSWORD" />
+          <ScalarProperty Name="USU_EMAIL" ColumnName="USU_EMAIL" />
+          <ScalarProperty Name="USU_ESTADO" ColumnName="USU_ESTADO" />
+          <ScalarProperty Name="USU_FEC_NAC" ColumnName="USU_FEC_NAC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,678 @@
+C:\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+C:\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll.config
+C:\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+C:\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+C:\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+C:\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+C:\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+C:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+C:\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+C:\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+C:\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+C:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+C:\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+C:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+C:\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojResolveAssemblyReference.cache
+C:\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+C:\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+C:\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+E:\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+E:\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll.config
+E:\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+E:\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+E:\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+E:\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+E:\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+E:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+E:\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+E:\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+E:\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+E:\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+E:\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+E:\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+E:\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojResolveAssemblyReference.cache
+E:\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+E:\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+E:\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+E:\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+E:\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojResolveAssemblyReference.cache
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll.config
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ulacit\Documents\Visual Studio 2017\Projects\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojAssemblyReference.cache
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CopyComplete
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+C:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll.config
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojResolveAssemblyReference.cache
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+F:\Cuatri9\diseño web 1\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CopyComplete
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+\\vmware-host\Shared Folders\Escritorio\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojAssemblyReference.cache
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\svill\OneDrive\Documentos\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CopyComplete
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll.config
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojResolveAssemblyReference.cache
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+C:\Users\ulacit\Downloads\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll.config
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojResolveAssemblyReference.cache
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CoreCompileInputs.cache
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+E:\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\ApplicationInsights.config
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll.config
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebApiSegura.pdb
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Swashbuckle.Core.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebActivatorEx.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\WebGrease.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Newtonsoft.Json.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Net.Http.Formatting.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Helpers.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Http.WebHost.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Mvc.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Optimization.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.Razor.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Deployment.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\System.Web.WebPages.Razor.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Antlr3.Runtime.pdb
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.ApplicationInsights.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\Microsoft.AI.Web.xml
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Helpers.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Mvc.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Optimization.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.Razor.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csprojAssemblyReference.cache
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.csproj.CopyComplete
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.dll
+C:\Users\David\Desktop\PROYECTO FINAL\DisenoWeb1\WebApiSegura\WebApiSegura\WebApiSegura\obj\Debug\WebApiSegura.pdb
