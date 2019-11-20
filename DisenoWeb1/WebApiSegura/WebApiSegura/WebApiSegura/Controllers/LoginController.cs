@@ -7,7 +7,6 @@ using System.Net.Http;
 using System.Threading;
 using System.Web.Http;
 using WebApiSegura.Models;
-using WebApiSeguro.Models.ViewModel;
 
 namespace WebApiSegura.Controllers
 {
@@ -40,7 +39,7 @@ namespace WebApiSegura.Controllers
             if (login == null)
                 throw new HttpResponseException(HttpStatusCode.BadRequest);
 
-            InfoUsuario usuarioValidado = ValidarUsuario(login);
+            Usuario usuarioValidado = ValidarUsuario(login);
             if (!string.IsNullOrEmpty(usuarioValidado.USU_IDENTIFICACION))
             {
                 usuarioValidado.CadenaToken = TokenGenerator.GenerateTokenJwt(login.Username);
@@ -54,9 +53,9 @@ namespace WebApiSegura.Controllers
 
         }
 
-        private InfoUsuario ValidarUsuario(LoginRequest login)
+        private Usuario ValidarUsuario(LoginRequest login)
         {
-            InfoUsuario usuario = new InfoUsuario();
+            Models.Usuario usuario = new Models.Usuario();
 
             using (SqlConnection connection =
                  new System.Data.SqlClient.SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
@@ -93,7 +92,7 @@ namespace WebApiSegura.Controllers
 
         [HttpPost]
         [Route("register")]
-        public IHttpActionResult Register(USUARIO usuario)
+        public IHttpActionResult Register(Usuario usuario)
         {
             if (usuario == null)
                 throw new HttpResponseException(HttpStatusCode.BadRequest);

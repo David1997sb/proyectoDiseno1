@@ -18,7 +18,7 @@ namespace AppReservas.Controllers
         public async Task<Usuario> Validar(string username, string password)
         {
             LoginRequest loginRequest = 
-                new LoginRequest() { Username = username, Password = password };
+                new LoginRequest() { USU_IDENTIFICACION = username, USU_PASSWORD = password };
 
             HttpClient httpClient = new HttpClient();
 

@@ -7,7 +7,7 @@ namespace AppReservas.Models
 {
     public class LoginRequest
     {
-        public string Username { get; set; }
-        public string Password { get; set; }
+        public string USU_IDENTIFICACION { get; set; }
+        public string USU_PASSWORD { get; set; }
     }
 }

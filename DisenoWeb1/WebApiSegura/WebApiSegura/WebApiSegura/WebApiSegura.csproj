@@ -46,12 +46,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -77,7 +71,6 @@
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.5.0\lib\net461\System.IdentityModel.Tokens.Jwt.dll</HintPath>
     </Reference>
-    <Reference Include="System.Security" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -216,38 +209,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\HABITACION.cs">
-      <DependentUpon>ModeloHotel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\HOTEL.cs">
-      <DependentUpon>ModeloHotel.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Models\Habitacion.cs" />
+    <Compile Include="Models\Hotel.cs" />
     <Compile Include="Models\LoginRequest.cs" />
-    <Compile Include="Models\ModeloHotel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModeloHotel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ModeloHotel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModeloHotel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ModeloHotel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModeloHotel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\RESERVA.cs">
-      <DependentUpon>ModeloHotel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\USUARIO.cs">
-      <DependentUpon>ModeloHotel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ViewModel\InfoHabitacion.cs" />
-    <Compile Include="Models\ViewModel\InfoHotel.cs" />
-    <Compile Include="Models\ViewModel\InfoReserva.cs" />
-    <Compile Include="Models\ViewModel\InfoUsuario.cs" />
+    <Compile Include="Models\Reserva.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -257,16 +223,6 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Models\ModeloHotel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModeloHotel.edmx</DependentUpon>
-      <LastGenOutput>ModeloHotel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\ModeloHotel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModeloHotel.edmx</DependentUpon>
-      <LastGenOutput>ModeloHotel.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -290,13 +246,6 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <EntityDeploy Include="Models\ModeloHotel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ModeloHotel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\ModeloHotel.edmx.diagram">
-      <DependentUpon>ModeloHotel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -336,9 +285,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -6,8 +6,6 @@ using System.Net.Http;
 using System.Web.Http;
 using WebApiSegura.Models;
 using System.Data.SqlClient;
-using WebApiSeguro.Models.ViewModel;
-
 namespace WebApiSegura.Controllers
 {
     [AllowAnonymous]
@@ -19,57 +17,83 @@ namespace WebApiSegura.Controllers
         public IHttpActionResult GetId(int id)
         {
 
-            RESERVA viewmodel = new RESERVA();
+            Reserva reserva = new Reserva();
 
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                    new SqlConnection(
+                        System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    var d = db.RESERVA.Find(id);
-                    viewmodel.RES_CODIGO = d.RES_CODIGO;
-                    viewmodel.HABITACION = d.HABITACION;
-                    viewmodel.HAB_CODIGO = d.HAB_CODIGO;
-                    viewmodel.RES_ESTADO = d.RES_ESTADO;
-                    viewmodel.RES_FECHA = d.RES_FECHA;
-                    viewmodel.RES_FECHA_INGRESO = d.RES_FECHA_INGRESO;
-                    viewmodel.RES_FECHA_SALIDA = d.RES_FECHA_SALIDA;
-                    viewmodel.USU_CODIGO = d.USU_CODIGO;
+                    SqlCommand sqlCommand = new SqlCommand("SELECT RES_CODIGO, RES_FECHA, " +
+                        "RES_FECHA_INGRESO, RES_FECHA_SALIDA, RES_ESTADO, USU_CODIGO, HAB_CODIGO " +
+                        "FROM RESERVA WHERE RES_CODIGO = @RES_CODIGO", connection);
 
+                    sqlCommand.Parameters.AddWithValue("@RES_CODIGO", id);
+
+                    connection.Open();
+
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+                    while (sqlDataReader.Read())
+                    {
+                        reserva.RES_CODIGO = sqlDataReader.GetInt32(0);
+                        reserva.RES_FECHA = sqlDataReader.GetDateTime(1);
+                        reserva.RES_FECHA_INGRESO = sqlDataReader.GetDateTime(2);
+                        reserva.RES_FECHA_SALIDA = sqlDataReader.GetDateTime(3);
+                        reserva.RES_ESTADO = sqlDataReader.GetString(4);
+                        reserva.USU_CODIGO = sqlDataReader.GetInt32(5);
+                        reserva.HAB_CODIGO = sqlDataReader.GetInt32(6);
+                    }
+
+                    connection.Close();
                 }
-
             }
             catch (Exception)
             {
 
                 throw;
             }
-            return Ok(viewmodel);
+
+            return Ok(reserva);
         }
 
         [HttpGet]
         public IHttpActionResult GetAll()
         {
-            List<InfoReserva> lst;
+            List<Reserva> reservas = new List<Reserva>();
+
             try
             {
-
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                    new SqlConnection(
+                        System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    lst = (from d in db.RESERVA
-                           select new InfoReserva
-                           {
-                               RES_CODIGO = d.RES_CODIGO,
-                               RES_ESTADO = d.RES_ESTADO,
-                               RES_FECHA = d.RES_FECHA,
-                               RES_FECHA_INGRESO = d.RES_FECHA_INGRESO,
-                               RES_FECHA_SALIDA = d.RES_FECHA_SALIDA,
-                               RES_TOTAL = d.RES_TOTAL,
-                               USU_CODIGO = d.USU_CODIGO,
-                               HAB_CODIGO = d.HAB_CODIGO
+                    SqlCommand sqlCommand = new SqlCommand("SELECT RES_CODIGO, RES_FECHA, " +
+                        "RES_FECHA_INGRESO, RES_FECHA_SALIDA, RES_ESTADO, USU_CODIGO, HAB_CODIGO "+
+                        "FROM RESERVA ORDER BY RES_CODIGO", connection);
 
-                           }).OrderBy(p => p.RES_CODIGO).ToList();
+                    connection.Open();
+
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+                    while (sqlDataReader.Read())
+                    {
+                        Reserva reserva = new Reserva()
+                        {
+                            RES_CODIGO = sqlDataReader.GetInt32(0),
+                            RES_FECHA = sqlDataReader.GetDateTime(1),
+                            RES_FECHA_INGRESO = sqlDataReader.GetDateTime(2),
+                            RES_FECHA_SALIDA = sqlDataReader.GetDateTime(3),
+                            RES_ESTADO = sqlDataReader.GetString(4),
+                            USU_CODIGO = sqlDataReader.GetInt32(5),
+                            HAB_CODIGO = sqlDataReader.GetInt32(6)
+                    };
+                        reservas.Add(reserva);
+                    }
+
+                    connection.Close();
                 }
-
             }
             catch (Exception)
             {
@@ -77,12 +101,14 @@ namespace WebApiSegura.Controllers
                 throw;
             }
 
-            return Ok(lst);
+            return Ok(reservas);
         }
+
+
 
         [HttpPost]
         [Route("ingresar")]
-        public IHttpActionResult Ingresar(RESERVA reserva)
+        public IHttpActionResult Ingresar(Reserva reserva)
         {
             if (reserva == null)
                 return BadRequest();
@@ -91,40 +117,53 @@ namespace WebApiSegura.Controllers
                 return Ok(reserva);
             else
                 return InternalServerError();
-
+           
         }
 
-        private bool RegistrarReserva(RESERVA reserva)
+
+        private bool RegistrarReserva(Reserva reserva)
         {
+            bool resultado = false;
 
             try
             {
-                RESERVASEntities dbi = new RESERVASEntities();
-                dbi.RESERVA.Add(new RESERVA
+                using (SqlConnection connection =
+                   new SqlConnection(
+                       System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    RES_ESTADO = reserva.RES_ESTADO,
-                    RES_FECHA = reserva.RES_FECHA,
-                    RES_FECHA_INGRESO = reserva.RES_FECHA_INGRESO,
-                    RES_FECHA_SALIDA = reserva.RES_FECHA_SALIDA,
-                    RES_TOTAL = reserva.RES_TOTAL,
-                    USU_CODIGO = reserva.USU_CODIGO,
-                    HAB_CODIGO = reserva.HAB_CODIGO
+                    SqlCommand sqlCommand = new SqlCommand("INSERT INTO RESERVA(RES_FECHA, " +
+                        "RES_FECHA_INGRESO, RES_FECHA_SALIDA, RES_ESTADO, USU_CODIGO, HAB_CODIGO ) VALUES  " +
+                        "(@RES_FECHA, @RES_FECHA_INGRESO, @RES_FECHA_SALIDA, @RES_ESTADO, @USU_CODIGO, @HAB_CODIGO) ",
+                        connection);
 
-                });
-                dbi.SaveChanges();
-                return (true);
+                    sqlCommand.Parameters.AddWithValue("@RES_FECHA", reserva.RES_FECHA);
+                    sqlCommand.Parameters.AddWithValue("@RES_FECHA_INGRESO", reserva.RES_FECHA_INGRESO);
+                    sqlCommand.Parameters.AddWithValue("@RES_FECHA_SALIDA", reserva.RES_FECHA_SALIDA);
+                    sqlCommand.Parameters.AddWithValue("@RES_ESTADO", reserva.RES_ESTADO);
+                    sqlCommand.Parameters.AddWithValue("@USU_CODIGO", reserva.USU_CODIGO);
+                    sqlCommand.Parameters.AddWithValue("@HAB_CODIGO", reserva.HAB_CODIGO);
+
+                    connection.Open();
+
+                    int filasAfectadas = sqlCommand.ExecuteNonQuery();
+                    if (filasAfectadas > 0)
+                        resultado = true;
+
+                    connection.Close();
+                }
             }
-
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw  ex;
+
+                throw;
             }
-          
+
+            return resultado;
         }
 
 
         [HttpPut]
-        public IHttpActionResult Put(RESERVA reserva)
+        public IHttpActionResult Put(Reserva reserva)
         {
             if (reserva == null)
                 return BadRequest();
@@ -160,13 +199,21 @@ namespace WebApiSegura.Controllers
         {
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                       new System.Data.SqlClient.SqlConnection(
+                           System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
+                    SqlCommand command =
+                        new SqlCommand(" DELETE RESERVA " +
+                                       " WHERE RES_CODIGO = @RES_CODIGO ", connection);
 
-                    RESERVA reserva = db.RESERVA.Where(x => x.RES_CODIGO == id).FirstOrDefault();
-                    db.RESERVA.Remove(reserva);
-                    db.SaveChanges();
+                    command.Parameters.AddWithValue("@RES_CODIGO", id);
 
+                    connection.Open();
+
+                    int filasAfectadas = command.ExecuteNonQuery();
+
+                    connection.Close();
                 }
             }
             catch (Exception)
@@ -177,21 +224,38 @@ namespace WebApiSegura.Controllers
             return true;
         }
 
-        private bool ActualizarReserva(RESERVA reserva)
+        private bool ActualizarReserva(Reserva reserva)
         {
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities()) {
-                    var table = db.RESERVA.Find(reserva.RES_CODIGO);
-                    table.RES_ESTADO = reserva.RES_ESTADO;
-                    table.RES_FECHA = reserva.RES_FECHA;
-                    table.RES_FECHA_INGRESO = reserva.RES_FECHA_INGRESO;
-                    table.RES_FECHA_SALIDA = reserva.RES_FECHA_SALIDA;
-                    table.RES_TOTAL = reserva.RES_TOTAL;
-                    db.Entry(table).State = System.Data.Entity.EntityState.Modified;
-                    db.SaveChanges();
+                using (SqlConnection connection =
+                       new System.Data.SqlClient.SqlConnection(
+                           System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
+                {
+                    SqlCommand command =
+                        new SqlCommand( " UPDATE RESERVA " +
+                                        " SET RES_FECHA = @RES_FECHA, " +
+                                        " RES_FECHA_INGRESO = @RES_FECHA_INGRESO, " +
+                                        " RES_FECHA_SALIDA = @RES_FECHA_SALIDA, " +
+                                        " RES_ESTADO = @RES_ESTADO, " +
+                                        " USU_CODIGO = @USU_CODIGO, " +
+                                        " HAB_CODIGO = @HAB_CODIGO " +
+                                        " WHERE RES_CODIGO = @RES_CODIGO ", connection);
 
 
+                    command.Parameters.AddWithValue("@RES_CODIGO", reserva.RES_CODIGO);
+                    command.Parameters.AddWithValue("@RES_FECHA", reserva.RES_FECHA);
+                    command.Parameters.AddWithValue("@RES_FECHA_INGRESO", reserva.RES_FECHA_INGRESO);
+                    command.Parameters.AddWithValue("@RES_FECHA_SALIDA", reserva.RES_FECHA_SALIDA);
+                    command.Parameters.AddWithValue("@RES_ESTADO", reserva.RES_ESTADO);
+                    command.Parameters.AddWithValue("@USU_CODIGO", reserva.USU_CODIGO);
+                    command.Parameters.AddWithValue("@HAB_CODIGO", reserva.HAB_CODIGO);
+
+                    connection.Open();
+
+                    int filasAfectadas = command.ExecuteNonQuery();
+
+                    connection.Close();
                 }
             }
             catch (Exception)

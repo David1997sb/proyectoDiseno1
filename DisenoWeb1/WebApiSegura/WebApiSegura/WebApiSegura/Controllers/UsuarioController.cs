@@ -6,66 +6,92 @@ using System.Net.Http;
 using System.Web.Http;
 using WebApiSegura.Models;
 using System.Data.SqlClient;
-using WebApiSeguro.Models.ViewModel;
-
 namespace WebApiSegura.Controllers
 {
     [AllowAnonymous]
     [RoutePrefix("api/usuario")]
     public class UsuarioController : ApiController
     {
+
         [HttpGet]
         public IHttpActionResult GetId(int id)
         {
 
-            USUARIO viewmodel = new USUARIO();
+            Usuario usuario = new Usuario();
 
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                    new SqlConnection(
+                        System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    var d = db.USUARIO.Find(id);
-                    viewmodel.USU_CODIGO = d.USU_CODIGO;
-                    viewmodel.USU_IDENTIFICACION = d.USU_IDENTIFICACION;
-                    viewmodel.USU_EMAIL = d.USU_EMAIL;
-                    viewmodel.USU_ESTADO = d.USU_ESTADO;
-                    viewmodel.USU_FEC_NAC = d.USU_FEC_NAC;
-                    viewmodel.USU_NOMBRE = d.USU_NOMBRE;
-                    viewmodel.USU_PASSWORD = d.USU_PASSWORD;
-                }
+                    SqlCommand sqlCommand = new SqlCommand("SELECT USU_CODIGO, USU_IDENTIFICACION, " +
+                        "USU_NOMBRE, USU_PASSWORD, USU_EMAIL, USU_ESTADO, USU_FEC_NAC " +
+                        "FROM USUARIO WHERE USU_CODIGO = @USU_CODIGO", connection);
 
+                    sqlCommand.Parameters.AddWithValue("@USU_CODIGO", id);
+
+                    connection.Open();
+
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+                    while (sqlDataReader.Read())
+                    {
+                        usuario.USU_CODIGO = sqlDataReader.GetInt32(0);
+                        usuario.USU_IDENTIFICACION = sqlDataReader.GetString(1);
+                        usuario.USU_NOMBRE = sqlDataReader.GetString(2);
+                        usuario.USU_PASSWORD = sqlDataReader.GetString(3);
+                        usuario.USU_EMAIL = sqlDataReader.GetString(4);
+                        usuario.USU_ESTADO = sqlDataReader.GetString(5);
+                    }
+
+                    connection.Close();
+                }
             }
             catch (Exception)
             {
 
                 throw;
             }
-            return Ok(viewmodel);
+
+            return Ok(usuario);
         }
 
         [HttpGet]
         public IHttpActionResult GetAll()
         {
-            List<InfoUsuario> lst;
+            List<Usuario> usuarios = new List<Usuario>();
+
             try
             {
-
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                    new SqlConnection(
+                        System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    lst = (from d in db.USUARIO
-                           select new InfoUsuario
-                           {
-                               USU_CODIGO = d.USU_CODIGO,
-                               USU_EMAIL = d.USU_EMAIL,
-                               USU_ESTADO = d.USU_ESTADO,
-                               USU_PASSWORD = d.USU_PASSWORD,
-                               USU_NOMBRE = d.USU_NOMBRE,
-                               USU_FEC_NAC = d.USU_FEC_NAC,
-                               USU_IDENTIFICACION = d.USU_IDENTIFICACION
+                    SqlCommand sqlCommand = new SqlCommand("SELECT USU_CODIGO, USU_IDENTIFICACION, " +
+                        "USU_NOMBRE, USU_PASSWORD, USU_EMAIL, USU_ESTADO " +
+                        "FROM USUARIO ORDER BY USU_CODIGO", connection);
 
-                           }).OrderBy(p => p.USU_CODIGO).ToList();
+                    connection.Open();
+
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+                    while (sqlDataReader.Read())
+                    {
+                        Usuario usuario = new Usuario()
+                        {
+                            USU_CODIGO = sqlDataReader.GetInt32(0),
+                            USU_IDENTIFICACION = sqlDataReader.GetString(1),
+                            USU_NOMBRE = sqlDataReader.GetString(2),
+                            USU_PASSWORD = sqlDataReader.GetString(3),
+                            USU_EMAIL = sqlDataReader.GetString(4),
+                            USU_ESTADO = sqlDataReader.GetString(5)
+                        };
+                        usuarios.Add(usuario);
+                    }
+
+                    connection.Close();
                 }
-
             }
             catch (Exception)
             {
@@ -73,12 +99,14 @@ namespace WebApiSegura.Controllers
                 throw;
             }
 
-            return Ok(lst);
+            return Ok(usuarios);
         }
+
+
 
         [HttpPost]
         [Route("ingresar")]
-        public IHttpActionResult Ingresar(USUARIO usuario)
+        public IHttpActionResult Ingresar(Usuario usuario)
         {
             if (usuario == null)
                 return BadRequest();
@@ -87,45 +115,52 @@ namespace WebApiSegura.Controllers
                 return Ok(usuario);
             else
                 return InternalServerError();
-
+           
         }
 
-        private bool RegistrarUsuario(USUARIO usuario)
-        {
 
+        private bool RegistrarUsuario(Usuario usuario)
+        {
+            bool resultado = false;
 
             try
             {
-                RESERVASEntities dbi = new RESERVASEntities();
-                dbi.USUARIO.Add(new USUARIO
+                using (SqlConnection connection =
+                   new SqlConnection(
+                       System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    USU_EMAIL = usuario.USU_EMAIL,
-                    USU_ESTADO = usuario.USU_ESTADO,
-                    USU_FEC_NAC = usuario.USU_FEC_NAC,
-                    USU_IDENTIFICACION = usuario.USU_IDENTIFICACION,
-                    USU_NOMBRE = usuario.USU_NOMBRE,
-                    USU_PASSWORD = usuario.USU_PASSWORD
+                    SqlCommand sqlCommand = new SqlCommand("INSERT INTO USUARIO(USU_IDENTIFICACION, " +
+                        "USU_NOMBRE, USU_PASSWORD, USU_EMAIL, USU_ESTADO) VALUES  " +
+                        "(@USU_IDENTIFICACION, @USU_NOMBRE, @USU_PASSWORD, @USU_EMAIL, @USU_ESTADO) ",
+                        connection);
 
-                });
-                dbi.SaveChanges();
+                    sqlCommand.Parameters.AddWithValue("@USU_IDENTIFICACION", usuario.USU_IDENTIFICACION);
+                    sqlCommand.Parameters.AddWithValue("@USU_NOMBRE", usuario.USU_NOMBRE);
+                    sqlCommand.Parameters.AddWithValue("@USU_PASSWORD", usuario.USU_PASSWORD);
+                    sqlCommand.Parameters.AddWithValue("@USU_EMAIL", usuario.USU_EMAIL);
+                    sqlCommand.Parameters.AddWithValue("@USU_ESTADO", usuario.USU_ESTADO);
 
-                return (true);
+                    connection.Open();
 
+                    int filasAfectadas = sqlCommand.ExecuteNonQuery();
+                    if (filasAfectadas > 0)
+                        resultado = true;
 
+                    connection.Close();
+                }
             }
-
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw ex;
+                throw;
             }
 
-         
+            return resultado;
         }
 
 
         [HttpPut]
-        public IHttpActionResult Put(USUARIO usuario)
+        public IHttpActionResult Put(Usuario usuario)
         {
             if (usuario == null)
                 return BadRequest();
@@ -161,10 +196,21 @@ namespace WebApiSegura.Controllers
         {
             try
             {
-              using(RESERVASEntities db = new RESERVASEntities()) {
-                    USUARIO usuario = db.USUARIO.Where(x => x.USU_CODIGO == id).FirstOrDefault();
-                    db.USUARIO.Remove(usuario);
-                    db.SaveChanges();
+                using (SqlConnection connection =
+                       new System.Data.SqlClient.SqlConnection(
+                           System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
+                {
+                    SqlCommand command =
+                        new SqlCommand(" DELETE USUARIO " +
+                                       " WHERE USU_CODIGO = @USU_CODIGO ", connection);
+
+                    command.Parameters.AddWithValue("@USU_CODIGO", id);
+
+                    connection.Open();
+
+                    int filasAfectadas = command.ExecuteNonQuery();
+
+                    connection.Close();
                 }
             }
             catch (Exception)
@@ -175,24 +221,37 @@ namespace WebApiSegura.Controllers
             return true;
         }
 
-        private bool ActualizarUsuario(USUARIO usuario)
+        private bool ActualizarUsuario(Usuario usuario)
         {
             try
             {
-
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                       new System.Data.SqlClient.SqlConnection(
+                           System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    var table = db.USUARIO.Find(usuario.USU_CODIGO);
-                    table.USU_EMAIL = usuario.USU_EMAIL;
-                    table.USU_ESTADO = usuario.USU_ESTADO;
-                    table.USU_FEC_NAC = usuario.USU_FEC_NAC;
-                    table.USU_IDENTIFICACION = usuario.USU_IDENTIFICACION;
-                    table.USU_NOMBRE = usuario.USU_NOMBRE;
-                    table.USU_PASSWORD = usuario.USU_PASSWORD;
-                    db.Entry(table).State = System.Data.Entity.EntityState.Modified;
-                    db.SaveChanges();
+                    SqlCommand command =
+                        new SqlCommand( " UPDATE USUARIO " +
+                                        " SET USU_IDENTIFICACION = @USU_IDENTIFICACION, " +
+                                        " USU_NOMBRE = @USU_NOMBRE, " +
+				        " USU_PASSWORD = @USU_PASSWORD, " +
+					" USU_EMAIL = @USU_EMAIL, " +
+					" USU_ESTADO = @USU_ESTADO " +
+                                        " WHERE USU_CODIGO = @USU_CODIGO ", connection);
+
+
+                   	command.Parameters.AddWithValue("@USU_IDENTIFICACION", usuario.USU_IDENTIFICACION);
+                    	command.Parameters.AddWithValue("@USU_NOMBRE", usuario.USU_NOMBRE);
+                    	command.Parameters.AddWithValue("@USU_PASSWORD", usuario.USU_PASSWORD);
+			command.Parameters.AddWithValue("@USU_EMAIL", usuario.USU_EMAIL);
+			command.Parameters.AddWithValue("@USU_ESTADO", usuario.USU_ESTADO);
+			command.Parameters.AddWithValue("@USU_CODIGO", usuario.USU_CODIGO);
+
+                    connection.Open();
+
+                    int filasAfectadas = command.ExecuteNonQuery();
+
+                    connection.Close();
                 }
-                
             }
             catch (Exception)
             {

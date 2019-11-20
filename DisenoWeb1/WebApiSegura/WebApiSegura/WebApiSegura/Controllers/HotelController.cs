@@ -6,8 +6,6 @@ using System.Net.Http;
 using System.Web.Http;
 using WebApiSegura.Models;
 using System.Data.SqlClient;
-using WebApiSeguro.Models.ViewModel;
-
 namespace WebApiSegura.Controllers
 {
     [AllowAnonymous]
@@ -19,49 +17,79 @@ namespace WebApiSegura.Controllers
         public IHttpActionResult GetId(int id)
         {
 
-            HOTEL viewmodel = new HOTEL();
+            Hotel hotel = new Hotel();
 
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                    new SqlConnection(
+                        System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    var d = db.HOTEL.Find(id);
-                    viewmodel.HOT_CODIGO = d.HOT_CODIGO;
-                    viewmodel.HOT_NOMBRE = d.HOT_NOMBRE;
-                    viewmodel.HOT_EMAIL = d.HOT_EMAIL;
-                    viewmodel.HOT_DIRECCION = d.HOT_DIRECCION;
+                    SqlCommand sqlCommand = new SqlCommand("SELECT HOT_CODIGO, HOT_NOMBRE, " +
+                        "HOT_EMAIL, HOT_DIRECCION" +
+                        "FROM HOTEL WHERE HOT_CODIGO = @HOT_CODIGO", connection);
 
+                    sqlCommand.Parameters.AddWithValue("@HOT_CODIGO", id);
+
+                    connection.Open();
+
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+                    while (sqlDataReader.Read())
+                    {
+                        hotel.HOT_CODIGO = sqlDataReader.GetInt32(0);
+                        hotel.HOT_NOMBRE = sqlDataReader.GetString(1);
+                        hotel.HOT_EMAIL = sqlDataReader.GetString(2);
+                        hotel.HOT_DIRECCION = sqlDataReader.GetString(3);
+
+                    }
+
+                    connection.Close();
                 }
-
             }
             catch (Exception)
             {
 
                 throw;
             }
-            return Ok(viewmodel);
+
+            return Ok(hotel);
         }
 
         [HttpGet]
         public IHttpActionResult GetAll()
         {
-            List<InfoHotel> lst;
+            List<Hotel> hoteles = new List<Hotel>();
+
             try
             {
-
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                    new SqlConnection(
+                        System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    lst = (from d in db.HOTEL
-                           select new InfoHotel
-                           {
-                               HOT_CODIGO = d.HOT_CODIGO,
-                               HOT_DIRECCION = d.HOT_DIRECCION,
-                               HOT_EMAIL = d.HOT_EMAIL,
-                               HOT_NOMBRE = d.HOT_NOMBRE
+                    SqlCommand sqlCommand = new SqlCommand("SELECT HOT_CODIGO, HOT_NOMBRE, " +
+                        "HOT_EMAIL, HOT_DIRECCION " +
+                        "FROM HOTEL ORDER BY HOT_CODIGO", connection);
 
-                           }).OrderBy(p => p.HOT_CODIGO).ToList();
+                    connection.Open();
+
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+                    while (sqlDataReader.Read())
+                    {
+                        Hotel hotel = new Hotel()
+                        {
+                            HOT_CODIGO = sqlDataReader.GetInt32(0),
+                            HOT_NOMBRE = sqlDataReader.GetString(1),
+                            HOT_EMAIL = sqlDataReader.GetString(2),
+                            HOT_DIRECCION = sqlDataReader.GetString(3),
+              
+                        };
+                        hoteles.Add(hotel);
+                    }
+
+                    connection.Close();
                 }
-
             }
             catch (Exception)
             {
@@ -69,12 +97,14 @@ namespace WebApiSegura.Controllers
                 throw;
             }
 
-            return Ok(lst);
+            return Ok(hoteles);
         }
+
+
 
         [HttpPost]
         [Route("ingresar")]
-        public IHttpActionResult Ingresar(HOTEL hotel)
+        public IHttpActionResult Ingresar(Hotel hotel)
         {
             if (hotel == null)
                 return BadRequest();
@@ -83,36 +113,51 @@ namespace WebApiSegura.Controllers
                 return Ok(hotel);
             else
                 return InternalServerError();
-
+           
         }
 
-        private bool RegistrarHotel(HOTEL hotel)
+
+        private bool RegistrarHotel(Hotel hotel)
         {
+            bool resultado = false;
 
             try
             {
-                RESERVASEntities dbi = new RESERVASEntities();
-                dbi.HOTEL.Add(new HOTEL
+                using (SqlConnection connection =
+                   new SqlConnection(
+                       System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    HOT_DIRECCION = hotel.HOT_DIRECCION,
-                    HOT_EMAIL = hotel.HOT_EMAIL,
-                    HOT_NOMBRE = hotel.HOT_NOMBRE
+                    SqlCommand sqlCommand = new SqlCommand("INSERT INTO HOTEL( " +
+                        "HOT_NOMBRE, HOT_EMAIL, HOT_DIRECCION) VALUES  " +
+                        "(@HOT_NOMBRE, @HOT_EMAIL, @HOT_DIRECCION) ",
+                        connection);
 
-                });
-                dbi.SaveChanges();
-                return (true);
+                    sqlCommand.Parameters.AddWithValue("@HOT_NOMBRE", hotel.HOT_NOMBRE);
+                    sqlCommand.Parameters.AddWithValue("@HOT_EMAIL", hotel.HOT_EMAIL);
+                    sqlCommand.Parameters.AddWithValue("@HOT_DIRECCION", hotel.HOT_DIRECCION);
+
+
+                    connection.Open();
+
+                    int filasAfectadas = sqlCommand.ExecuteNonQuery();
+                    if (filasAfectadas > 0)
+                        resultado = true;
+
+                    connection.Close();
+                }
             }
-
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw ex;
+
+                throw;
             }
-          
+
+            return resultado;
         }
 
 
         [HttpPut]
-        public IHttpActionResult Put(HOTEL hotel)
+        public IHttpActionResult Put(Hotel hotel)
         {
             if (hotel == null)
                 return BadRequest();
@@ -148,12 +193,21 @@ namespace WebApiSegura.Controllers
         {
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                       new System.Data.SqlClient.SqlConnection(
+                           System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
+                    SqlCommand command =
+                        new SqlCommand(" DELETE HOTEL " +
+                                       " WHERE HOT_CODIGO = @HOT_CODIGO ", connection);
 
-                    HOTEL evento = db.HOTEL.Where(x => x.HOT_CODIGO == id).FirstOrDefault();
-                    db.HOTEL.Remove(evento);
-                    db.SaveChanges();
+                    command.Parameters.AddWithValue("@HOT_CODIGO", id);
+
+                    connection.Open();
+
+                    int filasAfectadas = command.ExecuteNonQuery();
+
+                    connection.Close();
                 }
             }
             catch (Exception)
@@ -164,21 +218,31 @@ namespace WebApiSegura.Controllers
             return true;
         }
 
-        private bool ActualizarHotel(HOTEL hotel)
+        private bool ActualizarHotel(Hotel hotel)
         {
             try
             {
-              
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                       new System.Data.SqlClient.SqlConnection(
+                           System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    var tabla = db.HOTEL.Find(hotel.HOT_CODIGO);
-                    tabla.HOT_DIRECCION = hotel.HOT_DIRECCION;
-                    tabla.HOT_EMAIL = hotel.HOT_EMAIL;
-                    tabla.HOT_NOMBRE = hotel.HOT_NOMBRE;
+                    SqlCommand command =
+                        new SqlCommand( " UPDATE HOTEL " +
+                                        " SET HOT_NOMBRE = @HOT_NOMBRE, " +
+                                        " HOT_EMAIL = @HOT_EMAIL, " +
+                                        " HOT_DIRECCION = @HOT_DIRECCION, " +
+                                        " WHERE HOT_CODIGO = @HOT_CODIGO ", connection);
 
-                    db.Entry(tabla).State = System.Data.Entity.EntityState.Modified;
-                    db.SaveChanges();
+                    command.Parameters.AddWithValue("@HOT_CODIGO", hotel.HOT_CODIGO);
+                    command.Parameters.AddWithValue("@HOT_NOMBRE", hotel.HOT_NOMBRE);
+                    command.Parameters.AddWithValue("@HOT_EMAIL", hotel.HOT_EMAIL);
+                    command.Parameters.AddWithValue("@HOT_DIRECCION", hotel.HOT_DIRECCION);
 
+                    connection.Open();
+
+                    int filasAfectadas = command.ExecuteNonQuery();
+
+                    connection.Close();
                 }
             }
             catch (Exception)

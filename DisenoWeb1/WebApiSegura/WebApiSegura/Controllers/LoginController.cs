@@ -109,7 +109,7 @@ namespace WebApiSegura.Controllers
                         "    USU_NOMBRE, " +
                         "    USU_PASSWORD, " +
                         "    USU_EMAIL, " +
-                        "    USU_FEC_NAC, " +
+                        "    USU_FECHA, " +
                         "    USU_ESTADO) VALUES " +
                         "( @USU_IDENTIFICACION, " +
                         "    @USU_NOMBRE, " +

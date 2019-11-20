@@ -6,8 +6,6 @@ using System.Net.Http;
 using System.Web.Http;
 using WebApiSegura.Models;
 using System.Data.SqlClient;
-using WebApiSeguro.Models.ViewModel;
-
 namespace WebApiSegura.Controllers
 {
     [AllowAnonymous]
@@ -19,53 +17,82 @@ namespace WebApiSegura.Controllers
         public IHttpActionResult GetId(int id)
         {
 
-            HABITACION viewmodel = new HABITACION();
+            Habitacion habitacion = new Habitacion();
 
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                    new SqlConnection(
+                        System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    var d = db.HABITACION.Find(id);
-                    viewmodel.HAB_CODIGO = d.HAB_CODIGO;
-                    viewmodel.HAB_CANT_HUESP = d.HAB_CANT_HUESP;
-                    viewmodel.HAB_ESTADO = d.HAB_ESTADO;
-                    viewmodel.HAB_PRECIO = d.HAB_PRECIO;
-                    viewmodel.HAB_TIPO = d.HAB_TIPO;
-                    viewmodel.HOT_CODIGO = d.HOT_CODIGO;
+                    SqlCommand sqlCommand = new SqlCommand("SELECT HAB_CODIGO, HAB_CANT_HUESP, " +
+                        "HAB_TIPO, HAB_PRECIO, HAB_ESTADO, HOT_CODIGO" +
+                        "FROM HABITACION WHERE HAB_CODIGO = @HAB_CODIGO", connection);
 
+                    sqlCommand.Parameters.AddWithValue("@HAB_CODIGO", id);
+
+                    connection.Open();
+
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+                    while (sqlDataReader.Read())
+                    {
+                        habitacion.HAB_CODIGO = sqlDataReader.GetInt32(0);
+                        habitacion.HAB_CANT_HUESP = sqlDataReader.GetInt32(1);
+                        habitacion.HAB_TIPO = sqlDataReader.GetString(2);
+                        habitacion.HAB_PRECIO = sqlDataReader.GetInt32(3);
+                        habitacion.HAB_ESTADO = sqlDataReader.GetString(4);
+                        habitacion.HOT_CODIGO = sqlDataReader.GetInt32(5);
+   
+                    }
+
+                    connection.Close();
                 }
-
             }
             catch (Exception)
             {
 
                 throw;
             }
-            return Ok(viewmodel);
+
+            return Ok(habitacion);
         }
 
         [HttpGet]
         public IHttpActionResult GetAll()
         {
-            List<InfoHabitacion> lst;
+            List<Habitacion> habitaciones = new List<Habitacion>();
+
             try
             {
-
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                    new SqlConnection(
+                        System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
-                    lst = (from d in db.HABITACION
-                           select new InfoHabitacion
-                           {
-                               HAB_TIPO = d.HAB_TIPO,
-                               HAB_PRECIO = d.HAB_PRECIO,
-                               HAB_ESTADO = d.HAB_ESTADO,
-                               HAB_CANT_HUESP = d.HAB_CANT_HUESP,
-                               HAB_CODIGO = d.HAB_CODIGO,
-                               HOT_CODIGO = d.HOT_CODIGO
+                    SqlCommand sqlCommand = new SqlCommand("SELECT HAB_CODIGO, HAB_CANT_HUESP, " +
+                        "HAB_TIPO, HAB_PRECIO, HAB_ESTADO, HOT_CODIGO" +
+                        "FROM HABITACION ORDER BY HAB_CODIGO", connection);
 
-                           }).OrderBy(p => p.HAB_CODIGO).ToList();
+                    connection.Open();
+
+                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+                    while (sqlDataReader.Read())
+                    {
+                        Habitacion habitacion = new Habitacion()
+                        {
+                            HAB_CODIGO = sqlDataReader.GetInt32(0),
+                            HAB_CANT_HUESP = sqlDataReader.GetInt32(1),
+                            HAB_TIPO = sqlDataReader.GetString(2),
+                            HAB_PRECIO = sqlDataReader.GetInt32(3),
+                            HAB_ESTADO = sqlDataReader.GetString(4),
+                            HOT_CODIGO = sqlDataReader.GetInt32(5)
+                        };
+                        habitaciones.Add(habitacion);
+                    }
+
+                    connection.Close();
                 }
-
             }
             catch (Exception)
             {
@@ -73,12 +100,14 @@ namespace WebApiSegura.Controllers
                 throw;
             }
 
-            return Ok(lst);
+            return Ok(habitaciones);
         }
+
+
 
         [HttpPost]
         [Route("ingresar")]
-        public IHttpActionResult Ingresar(HABITACION habitacion)
+        public IHttpActionResult Ingresar(Habitacion habitacion)
         {
             if (habitacion == null)
                 return BadRequest();
@@ -87,38 +116,52 @@ namespace WebApiSegura.Controllers
                 return Ok(habitacion);
             else
                 return InternalServerError();
-
-        }
-
-        private bool RegistrarHabitacion(HABITACION habitacion)
-        {
-
-            try
-            {
-                RESERVASEntities dbi = new RESERVASEntities();
-                dbi.HABITACION.Add(new HABITACION
-                {
-                    HAB_CANT_HUESP = habitacion.HAB_CANT_HUESP,
-                    HAB_ESTADO = habitacion.HAB_ESTADO,
-                    HAB_PRECIO = habitacion.HAB_PRECIO,
-                    HAB_TIPO = habitacion.HAB_TIPO,
-                    HOT_CODIGO = habitacion.HOT_CODIGO
-
-                });
-                dbi.SaveChanges();
-                return (true);
-            }
-
-            catch (Exception ex)
-            {
-                throw ex;
-            }
            
         }
 
 
+        private bool RegistrarHabitacion(Habitacion habitacion)
+        {
+            bool resultado = false;
+
+            try
+            {
+                using (SqlConnection connection =
+                   new SqlConnection(
+                       System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
+                {
+                    SqlCommand sqlCommand = new SqlCommand("INSERT INTO HABITACION(HAB_CANT_HUESP, " +
+                        "HAB_TIPO, HAB_PRECIO, HAB_ESTADO, HOT_CODIGO) VALUES  " +
+                        "( @HAB_CANT_HUESP, @HAB_TIPO, @HAB_PRECIO, @HAB_ESTADO, @HOT_CODIGO) ",
+                        connection);
+
+                    sqlCommand.Parameters.AddWithValue("@HAB_CANT_HUESP", habitacion.HAB_CANT_HUESP);
+                    sqlCommand.Parameters.AddWithValue("@HAB_TIPO", habitacion.HAB_TIPO);
+                    sqlCommand.Parameters.AddWithValue("@HAB_PRECIO", habitacion.HAB_PRECIO);
+                    sqlCommand.Parameters.AddWithValue("@HAB_ESTADO", habitacion.HAB_ESTADO);
+                    sqlCommand.Parameters.AddWithValue("@HOT_CODIGO", habitacion.HAB_CODIGO);
+
+                    connection.Open();
+
+                    int filasAfectadas = sqlCommand.ExecuteNonQuery();
+                    if (filasAfectadas > 0)
+                        resultado = true;
+
+                    connection.Close();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return resultado;
+        }
+
+
         [HttpPut]
-        public IHttpActionResult Put(HABITACION habitacion)
+        public IHttpActionResult Put(Habitacion habitacion)
         {
             if (habitacion == null)
                 return BadRequest();
@@ -154,12 +197,21 @@ namespace WebApiSegura.Controllers
         {
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities())
+                using (SqlConnection connection =
+                       new System.Data.SqlClient.SqlConnection(
+                           System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
                 {
+                    SqlCommand command =
+                        new SqlCommand(" DELETE HABITACION " +
+                                       " WHERE HAB_CODIGO = @HAB_CODIGO ", connection);
 
-                    HABITACION habitacion = db.HABITACION.Where(x => x.HAB_CODIGO == id).FirstOrDefault();
-                    db.HABITACION.Remove(habitacion);
-                    db.SaveChanges();
+                    command.Parameters.AddWithValue("@HAB_CODIGO", id);
+
+                    connection.Open();
+
+                    int filasAfectadas = command.ExecuteNonQuery();
+
+                    connection.Close();
                 }
             }
             catch (Exception)
@@ -170,19 +222,36 @@ namespace WebApiSegura.Controllers
             return true;
         }
 
-        private bool ActualizarHabitacion(HABITACION habitacion)
+        private bool ActualizarHabitacion(Habitacion habitacion)
         {
             try
             {
-                using (RESERVASEntities db = new RESERVASEntities()) {
-                    var table = db.HABITACION.Find(habitacion.HAB_CODIGO);
-                    table.HAB_CANT_HUESP = habitacion.HAB_CANT_HUESP;
-                    table.HAB_ESTADO = habitacion.HAB_ESTADO;
-                    table.HAB_PRECIO = habitacion.HAB_PRECIO;
-                    table.HAB_TIPO = habitacion.HAB_TIPO;
+                using (SqlConnection connection =
+                       new System.Data.SqlClient.SqlConnection(
+                           System.Configuration.ConfigurationManager.ConnectionStrings["RESERVAS"].ConnectionString))
+                {
+                    SqlCommand command =
+                        new SqlCommand( " UPDATE HABITACION " +
+                                        " SET HAB_CANT_HUESP = @HAB_CANT_HUESP, " +
+                                        " HAB_TIPO = @HAB_TIPO, " +
+                                        " HAB_PRECIO = @HAB_PRECIO, " +
+                                        " HAB_ESTADO = @HAB_ESTADO, " +
+                                        " HOT_CODIGO = @HOT_CODIGO, " +
+                                        " WHERE HAB_CODIGO = @HAB_CODIGO ", connection);
 
-                    db.Entry(table).State = System.Data.Entity.EntityState.Modified;
-                    db.SaveChanges();                                              
+                    command.Parameters.AddWithValue("@HAB_CODIGO", habitacion.HAB_CODIGO); 
+                    command.Parameters.AddWithValue("@HAB_CANT_HUESP", habitacion.HAB_CANT_HUESP);
+                    command.Parameters.AddWithValue("@HAB_TIPO", habitacion.HAB_TIPO);
+			        command.Parameters.AddWithValue("@HAB_PRECIO", habitacion.HAB_PRECIO);
+			        command.Parameters.AddWithValue("@HAB_ESTADO", habitacion.HAB_ESTADO);
+			        command.Parameters.AddWithValue("@HOT_CODIGO", habitacion.HOT_CODIGO);
+			        
+
+                    connection.Open();
+
+                    int filasAfectadas = command.ExecuteNonQuery();
+
+                    connection.Close();
                 }
             }
             catch (Exception)
